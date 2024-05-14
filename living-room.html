@@ -27,13 +27,12 @@
                     <div class="container">
                         <a class="navbar-brand text-green font-family-logo fw-bolder fs-2" href="index.html">Luxe
                             Home</a>
+                
                         <div class="dropdown">
-                            <button
-                                class="btn btn-tansparent dropdown-toggle border-0 font-family text-green nobtnhover"
-                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Categories
+                            <button class="btn btn-tansparent dropdown-toggle border-0 font-family text-green nobtnhover" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Department
                             </button>
-
                             <ul class="dropdown-menu border-0 rounded-0">
                                 <li><a class="dropdown-item text-green" href="living-room.html">Living Room</a></li>
                                 <li><a class="dropdown-item text-green" href="bedroom.html">Bedroom</a></li>
@@ -52,41 +51,29 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <form class="d-flex my-2 my-lg-0 me-3">
+                                <input class="form-control me-sm- py-2 ps-5 text-green fw-bold bg-lighter border-0" type="text"
+                                    placeholder="Search">
+                            </form>
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                                 <li class="nav-item">
                                     <a class=" text-green active me-3 font-family text-decoration-none" href="home.html"
-                                        aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                                        aria-current="page">Home<span class="visually-hidden">(current)</span></a>
                                 </li>
                                 <a class=" text-green text-decoration-none me-3 active font-family" href="about.html"
-                                    aria-current="page">About<span class="visually-hidden">(current)</span></a>
-
-
+                                    aria-current="page">Sale<span class="visually-hidden">(current)</span></a>
+                
+                
                                 <a class=" text-green text-decoration-none me-3 active font-family" href="contact.html"
-                                    aria-current="page">contact<span class="visually-hidden">(current)</span></a>
+                                    aria-current="page">Contact<span class="visually-hidden">(current)</span></a>
                                 <a class=" text-green text-decoration-none me-3 active font-family" href="feedback.html"
-                                    aria-current="page">Feedback<span class="visually-hidden">(current)</span></a>
+                                    aria-current="page">Sign Up/Sign In<span class="visually-hidden">(current)</span></a>
                             </ul>
-                            <form class="d-flex my-2 my-lg-0">
-                                <input
-                                    class="form-control me-sm- rounded-5 py-1 ps-5 text-green fw-bold bg-lighter border-0"
-                                    type="text" placeholder="Search">
-                            </form>
-                            <i class="fa-regular fa-heart text-center pt-2 ps-3" style="color: #356f63;"></i>
-                            <i class="fa-solid fa-cart-shopping text-center pt-2 ps-3" style="color: #356f63;"
-                                type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
-                                aria-controls="offcanvasScrolling"></i>
-                            <!-- offcanva -->
-                            <!-- <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-                                        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                                        <div class="offcanvas-header">
-                                            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Add Product in cart.</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div class="offcanvas-body">
-                                            <p>No Product In the cart.</p>
-                                        </div>
-                                    </div> -->
-
+                
+                            <i class="fa-regular fa-heart text-center pt-2 ps-3" style="color: #356f63;" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa-solid fa-cart-shopping text-center pt-2 ps-3" style="color: #356f63;" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
                         </div>
                     </div>
                 </nav>

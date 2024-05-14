@@ -16,78 +16,123 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--css link-->
     <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
             <div class="container">
-                <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
-                    <div class="container">
-                        <a class="navbar-brand text-green font-family-logo fw-bolder fs-2" href="index.html">Luxe
-                            Home</a>
+                <a class="navbar-brand text-green font-family-logo fw-bolder fs-2" href="index.html">Luxe
+                    Home</a>
 
-                        <div class="dropdown">
-                            <button
-                                class="btn btn-tansparent dropdown-toggle border-0 font-family text-green nobtnhover"
-                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Categories
-                            </button>
-                            <ul class="dropdown-menu border-0 rounded-0">
-                                <li><a class="dropdown-item text-green" href="living-room.html">Living Room</a></li>
-                                <li><a class="dropdown-item text-green" href="bedroom.html">Bedroom</a></li>
-                                <li><a class="dropdown-item text-green" href="dining-room.html">Dining Room</a></li>
-                                <li><a class="dropdown-item text-green" href="work and study.html">Work And Study</a>
-                                </li>
-                                <li><a class="dropdown-item text-green" href="decore.html">Decore</a></li>
-                                <li><a class="dropdown-item text-green" href="kitchen.html">Kitchen</a></li>
-                                <li><a class="dropdown-item text-green" href="bath.html">Bath And Laundary</a></li>
-                                <li><a class="dropdown-item text-green" href="appliances.html">Appliances</a></li>
-                            </ul>
-                        </div>
-                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="collapsibleNavId">
-                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                                <li class="nav-item">
-                                    <a class=" text-green active me-3 font-family text-decoration-none" href="home.html"
-                                        aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-                                </li>
-                                <a class=" text-green text-decoration-none me-3 active font-family" href="about.html"
-                                    aria-current="page">About<span class="visually-hidden">(current)</span></a>
+                <div class="dropdown">
+                    <button class="btn btn-tansparent dropdown-toggle border-0 font-family text-green nobtnhover"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Department
+                    </button>
+                    <ul class="dropdown-menu border-0 rounded-0">
+                        <li><a class="dropdown-item text-green" href="living-room.html">Living Room</a></li>
+                        <li><a class="dropdown-item text-green" href="bedroom.html">Bedroom</a></li>
+                        <li><a class="dropdown-item text-green" href="dining-room.html">Dining Room</a></li>
+                        <li><a class="dropdown-item text-green" href="work and study.html">Work And Study</a>
+                        </li>
+                        <li><a class="dropdown-item text-green" href="decore.html">Decore</a></li>
+                        <li><a class="dropdown-item text-green" href="kitchen.html">Kitchen</a></li>
+                        <li><a class="dropdown-item text-green" href="bath.html">Bath And Laundary</a></li>
+                        <li><a class="dropdown-item text-green" href="appliances.html">Appliances</a></li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <form class="d-flex my-2 my-lg-0 me-3">
+                        <input class="form-control me-sm- py-2 ps-5 text-green fw-bold bg-lighter border-0" type="text"
+                            placeholder="Search">
+                    </form>
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class=" text-green active me-3 font-family text-decoration-none" href="home.html"
+                                aria-current="page">Home<span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <a class=" text-green text-decoration-none me-3 active font-family" href="about.html"
+                            aria-current="page">Sale<span class="visually-hidden">(current)</span></a>
 
 
-                                <a class=" text-green text-decoration-none me-3 active font-family" href="contact.html"
-                                    aria-current="page">contact<span class="visually-hidden">(current)</span></a>
-                                <a class=" text-green text-decoration-none me-3 active font-family" href="feedback.html"
-                                    aria-current="page">Feedback<span class="visually-hidden">(current)</span></a>
-                            </ul>
-                            <form class="d-flex my-2 my-lg-0">
-                                <input
-                                    class="form-control me-sm- rounded-5 py-1 ps-5 text-green fw-bold bg-lighter border-0"
-                                    type="text" placeholder="Search">
-                            </form>
-                            <i class="fa-regular fa-heart text-center pt-2 ps-3" style="color: #356f63;"
-                                data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
-                            <i class="fa-solid fa-cart-shopping text-center pt-2 ps-3" style="color: #356f63;"
-                                type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
-                                aria-controls="offcanvasScrolling"></i>
+                        <a class=" text-green text-decoration-none me-3 active font-family" href="contact.html"
+                            aria-current="page">Contact<span class="visually-hidden">(current)</span></a>
+                        <a class=" text-green text-decoration-none me-3 active font-family" href="feedback.html"
+                            aria-current="page">Sign Up/Sign In<span class="visually-hidden">(current)</span></a>
+                    </ul>
+
+                    <i class="fa-regular fa-heart text-center pt-2 ps-3" style="color: #356f63;" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"></i>
+                    <i class="fa-solid fa-cart-shopping text-center pt-2 ps-3" style="color: #356f63;" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                        aria-controls="offcanvasScrolling"></i>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </div>
+
+    </header>
+    <div class="container-fluid p-0 carousel-inner py-5">
+        <div class="row">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/living-room-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4 class="text-lighter bg-green py-2">Bring Home The New <br> for look that refreshing!
+                            </h4>
+                            <button type="button" class="border-0 py-1 px-2 fw-bold text-green">Shop Now</button>
                         </div>
                     </div>
-                </nav>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/indoor-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4 class="text-lighter bg-green py-2">Bring Home The New <br> for look that refreshing!
+                            </h4>
+                            <button type="button" class="border-0 py-1 px-2 fw-bold text-green">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/living-room-6.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4 class="text-lighter bg-green py-2">Bring Home The New <br> for look that refreshing!
+                            </h4>
+                            <button type="button" class="border-0 py-1 px-2 fw-bold text-green">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-       
-    </header>
-    <div class="container-fluid ">
-        <div class="row">
-            <div class="gradient pb-4 d-none d-lg-block"></div>
-            <img src="./images/header-bg.jpg " alt="" class="w-100">
-            <!-- <div class="d-flex justify-content-around img-overlay">
+
+        <!-- <div class="d-flex justify-content-around img-overlay">
                 <img src="images/item-4.jpg" alt="" class="w-25 rounded-circle">
                 <img src="images/item-3.jpg" alt="" class="w-25 rounded-circle">
                 <img src="images/item-2.jpg" alt="" class="w-25 rounded-circle">
                 <img src="images/item-2.jpg" alt="" class="w-25 rounded-circle">
             </div> -->
-        </div>
+
     </div>
     <div class="container-fluid py-2">
         <div class="container bg-green py-4">
@@ -188,10 +233,12 @@
                                                             participating brands</p>
                                                     </div>
                                                     <div class="modal-body">
-                                                    <form name="myForm" method="post" onsubmit="return validateForm()">
+                                                        <form name="myForm" method="post"
+                                                            onsubmit="return validateForm()">
                                                             <label for="tel" class="text-green font-family fs-5">Mobile
                                                                 Number<p> <input type="text" name="contact"
-                                                                        class="bg-lighter text-lighter border-0"></p></label>
+                                                                        class="bg-lighter text-lighter border-0"></p>
+                                                            </label>
                                                         </form>
                                                     </div>
                                                     <div class="modal-body">
@@ -536,6 +583,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
         </script>
-</body>
+    </body>
 
 </html>

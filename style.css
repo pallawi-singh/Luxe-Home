@@ -61,7 +61,10 @@ cursive;
 
 .font-family-logo {
     font-family: alex brush;
+}
 
+.carousel-inner {
+    height: 100vh;
 }
 
 .overlay {
@@ -131,10 +134,12 @@ cursive;
     top: 10px;
     left: 150px;
 }
+
 .plant-offer {
     position: relative;
     text-align: center;
 }
+
 .plant-arrival {
     position: absolute;
     top: 150px;
