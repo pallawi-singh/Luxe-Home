@@ -1,3 +1,4 @@
+/* utility css start here */
 :root {
 
 
@@ -59,27 +60,66 @@ cursive;
     font-weight: 600;
 }
 
+/* utility css end here */
+
 .font-family-logo {
     font-family: alex brush;
 }
+
+/* navbar css start here */
+
+ul li a {
+    position: relative;
+}
+ul li a:hover {
+    color: #f9f4f0 !important;
+    padding: 5px 10px;
+}
+
+ul li a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #356f63;
+    color: #ffffff !important;
+    padding: 10px 0;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    z-index: -1;
+   
+}
+
+ul li a:hover::before {
+    transform: scale(1);
+    transform-origin: left;
+}
+
+/* navbar css end here */
+
+/* carousel part css start here */
 
 .carousel-inner {
     height: 100vh;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    background: linear-gradient(rgba(34, 81, 71, 1), rgba(34, 81, 71, 0.4));
+@media screen and (max-width: 600px) {
+    .carousel-inner {
+        height: 250px;
+
+    }
 }
 
-.header {
-    background: linear-gradient(rgba(34, 81, 71, 1), rgba(34, 81, 71, 0.4)), url("images/header-bg.jpg") no-repeat top center;
+.skew {
+    transform: skew(-3deg, -3deg);
+    box-shadow: 2px 3px 5px #356f63;
 
 }
+
+/* carousel part css end here */
 
 .card-border {
     border: 2px dotted#bb989e !important;
